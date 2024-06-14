@@ -1,3 +1,61 @@
-.color-red {
-  color: red;
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Roboto+Slab:wght@500;600&display=swap");
+
+:root {
+  --pprimary-color: #e0eafc;
+  --max-width: 1200px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.btn {
+  position: absolute;
+  padding: 1 rem 2 rem;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+body {
+  font-family: "Roboto Slab", "sans-serif";
+  background: rgb(207, 222, 243);
+  background: linear-gradient(
+    90deg,
+    rgba(207, 222, 243, 0.8) 60%,
+    rgba(133, 177, 255, 0.8) 100%
+  );
+}
+
+header {
+  display: block;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  background-color: rgb(207, 222, 243);
+  background: rgb(207, 222, 243);
+  background: linear-gradient(
+    90deg,
+    rgba(207, 222, 243, 1) 100%,
+    rgba(133, 177, 255, 1) 60%
+  );
+  height: 48px;
+}
+.navbar {
+  padding-top: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+li {
+  border-bottom: 2px solid rgb(0, 0, 0, 0);
+  size: 100%;
+}
+li:hover {
+  border-bottom: 2px solid rgb(0, 0, 0, 1);
+  transition: 0.5s ease-in-out;
+  transform: scale(1.1);
+  size: 110%;
 }
