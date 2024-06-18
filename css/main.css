@@ -39,8 +39,10 @@ body {
     rgba(133, 177, 255, 0.8) 100%
   );
 }
-
-header {
+.mo {
+  backdrop-filter: blur(10px);
+}
+#header {
   display: block;
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   background-color: rgb(207, 222, 243);
@@ -48,9 +50,10 @@ header {
   background: linear-gradient(
     90deg,
     rgba(207, 222, 243, 1) 100%,
-    rgba(133, 177, 255, 1) 60%
+    rgb(96, 153, 252) 60%
   );
   height: 48px;
+  backdrop-filter: blur(10px);
 }
 .navbar {
   padding-top: 12px;
@@ -76,4 +79,14 @@ li:hover {
   font-weight: 400;
   font-size: 100px;
   color: aliceblue;
+}
+#footer {
+  background-color: #5096cc;
+}
+.footer__links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
 }
