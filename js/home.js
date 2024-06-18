@@ -1,5 +1,5 @@
-document.getElementById("fb icon").addEventListener("click", function () {
-  document.getElementById("link fb").click();
+document.getElementById("fb-icon").addEventListener("click", function () {
+  document.getElementById("link-fb").click();
 });
 window.addEventListener("scroll", function () {
   var navbar = document.getElementById("navbar");
