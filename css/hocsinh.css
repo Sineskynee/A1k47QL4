@@ -45,14 +45,28 @@ html, body {
     font-style: normal;
     font-size:55px;  
 }
-#avt_left{
-    background-image: url(../footage/hocsinh_footage/10.jpg);
+.avt:nth-child(1){
+    left:0px;
+    height: 90%;
 }
-#avt_main{
-    background-image: url(../footage/hocsinh_footage/1.png);
+.avt:nth-child(2){
+    left:300px;
+    height: 90%;
+
 }
-#avt_right{
-    background-image: url(../footage/hocsinh_footage/2.png);
+.avt:nth-child(3){
+    left:600px;
+    height:100%;
+}
+.avt:nth-child(4){
+    left:900px;
+    height: 90%;
+
+}
+.avt:nth-child(5){
+    left:1200px;
+    height: 90%;
+
 }
 .avt{
     border-radius: 10px;
@@ -60,5 +74,23 @@ html, body {
     background-repeat: no-repeat;
     background-size:cover ;
     background-position: center;
-    transition: 750ms;
+    display: inline-block;
+    position: absolute;
+    transition: 1s;
+}
+
+.button button{
+    width: 40px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+    border: 1px solid #000;
+    transition: 0.3s;
+}
+
+.button button:hover{
+    background: #ababab;
+    color: #fff;
 }
