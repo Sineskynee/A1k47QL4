@@ -484,8 +484,13 @@ li:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 2rem;
+  /* gap: 2rem; */
 }
 .padding-scrollbar {
   padding-right: calc(14px - var(--scrollbar-width));
+}
+.footer__links img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
 }
